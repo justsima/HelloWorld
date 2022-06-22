@@ -17,6 +17,7 @@ namespace ConsoleApp1
             Console.WriteLine();
             Console.WriteLine("Hello " + str);
             Console.WriteLine("From GitHub web! ");
+            Console.WriteLine("From VS in the BEST laptop");
             Console.Read();
 
 
