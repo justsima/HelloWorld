@@ -16,6 +16,7 @@ namespace ConsoleApp1
             Console.WriteLine("Sum = " + sum);
             Console.WriteLine();
             Console.WriteLine("Hello " + str);
+            Console.WriteLine("From GitHub web! ");
             Console.Read();
 
 
