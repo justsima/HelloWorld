@@ -24,6 +24,8 @@ namespace loop
             } while (ans == 'y');
             Console.WriteLine("Thank you. Bye");
             Console.Read();
+
+
         }
     }
 }
