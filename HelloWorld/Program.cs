@@ -20,6 +20,7 @@ namespace ConSoleApp1
             Console.WriteLine("Age is "+ st.Id);
             Console.WriteLine("Email is "+ st.Email);
 
+
             
         }
     }
