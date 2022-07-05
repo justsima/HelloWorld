@@ -6,7 +6,7 @@ namespace ConsoleApp2
         public abstract double calcArea();
         public abstract double calcPermiter();
     }
-    class Circle : shape 
+    class Circle : shape
     {
         public double radius { get; set; }
         static readonly double PI = 3.14;
@@ -16,7 +16,7 @@ namespace ConsoleApp2
         }
         public override double calcPermiter()
         {
-            return 2*PI*radius;
+            return 2 * PI * radius;
         }
 
     }
@@ -24,15 +24,15 @@ namespace ConsoleApp2
     {
         public double height { get; set; }
         public double length { get; set; }
-    public override double calcArea()
+        public override double calcArea()
         {
-            return height*length;
+            return height * length;
         }
-    public override double calcPermiter()
+        public override double calcPermiter()
         {
-            return 2 * (length * height);                
+            return 2 * (length * height);
         }
-} 
+    }
     class Program
     {
         static void Main(string[] args)
@@ -45,6 +45,7 @@ namespace ConsoleApp2
             Console.WriteLine("Enter height: ");
             Console.WriteLine("Area of rectangle");
             Console.WriteLine("Perimeter  of rectangle");
+          
         }
     }
 }
