@@ -1,0 +1,15 @@
+C:\Users\lenovo\Documents\GitHub\C#\Lab Ex\HelloWorld\If and while loop\bin\Debug\net6.0\If and while loop.exe
+C:\Users\lenovo\Documents\GitHub\C#\Lab Ex\HelloWorld\If and while loop\bin\Debug\net6.0\If and while loop.deps.json
+C:\Users\lenovo\Documents\GitHub\C#\Lab Ex\HelloWorld\If and while loop\bin\Debug\net6.0\If and while loop.runtimeconfig.json
+C:\Users\lenovo\Documents\GitHub\C#\Lab Ex\HelloWorld\If and while loop\bin\Debug\net6.0\If and while loop.dll
+C:\Users\lenovo\Documents\GitHub\C#\Lab Ex\HelloWorld\If and while loop\bin\Debug\net6.0\If and while loop.pdb
+C:\Users\lenovo\Documents\GitHub\C#\Lab Ex\HelloWorld\If and while loop\obj\Debug\net6.0\If and while loop.csproj.AssemblyReference.cache
+C:\Users\lenovo\Documents\GitHub\C#\Lab Ex\HelloWorld\If and while loop\obj\Debug\net6.0\If and while loop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lenovo\Documents\GitHub\C#\Lab Ex\HelloWorld\If and while loop\obj\Debug\net6.0\If and while loop.AssemblyInfoInputs.cache
+C:\Users\lenovo\Documents\GitHub\C#\Lab Ex\HelloWorld\If and while loop\obj\Debug\net6.0\If and while loop.AssemblyInfo.cs
+C:\Users\lenovo\Documents\GitHub\C#\Lab Ex\HelloWorld\If and while loop\obj\Debug\net6.0\If and while loop.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Documents\GitHub\C#\Lab Ex\HelloWorld\If and while loop\obj\Debug\net6.0\If and while loop.dll
+C:\Users\lenovo\Documents\GitHub\C#\Lab Ex\HelloWorld\If and while loop\obj\Debug\net6.0\refint\If and while loop.dll
+C:\Users\lenovo\Documents\GitHub\C#\Lab Ex\HelloWorld\If and while loop\obj\Debug\net6.0\If and while loop.pdb
+C:\Users\lenovo\Documents\GitHub\C#\Lab Ex\HelloWorld\If and while loop\obj\Debug\net6.0\If and while loop.genruntimeconfig.cache
+C:\Users\lenovo\Documents\GitHub\C#\Lab Ex\HelloWorld\If and while loop\obj\Debug\net6.0\ref\If and while loop.dll

@@ -6,7 +6,7 @@ namespace ConsoleApp2
         public abstract double calcArea();
         public abstract double calcPermiter();
     }
-   class Circle : shape 
+    class Circle : shape 
     {
         public double radius { get; set; }
         static readonly double PI = 3.14;
@@ -30,7 +30,7 @@ namespace ConsoleApp2
         }
     public override double calcPermiter()
         {
-            return 2 * (length * height);                ;
+            return 2 * (length * height);                
         }
 } 
     class Program
@@ -38,7 +38,9 @@ namespace ConsoleApp2
         static void Main(string[] args)
         {
             Circle cr = new Circle();
-                   cr.calcArea();
+            Console.WriteLine("Enter radius: ");
+            int rad = Console.Read();
+            Console.WriteLine("Area of Circle: ");
         }
     }
 }
