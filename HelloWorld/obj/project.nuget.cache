@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "F/M9lweU0aDFeGAwZ8zoiU5R4NQXnCS3/1QZe1+k4qgdMEViFh8DlqiKwbpzQStomVs+Ksk7KwmvtYKe+vLgdA==",
+  "dgSpecHash": "NN6qdKz1u6b8viQTRDHH34IEdJJTPVuHHUlsALF5N2yXvFT6s8Gg5LRWJT8ueH4PD7/h47wO1os18ykgmfFYLA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lenovo\\Documents\\GitHub\\C#\\Lab Ex\\HelloWorld\\ConsoleApp1\\ConsoleApp1.csproj",
+  "projectFilePath": "C:\\Users\\lenovo\\Documents\\GitHub\\C#\\Lab Ex\\HelloWorld\\HelloWorld\\ConsoleApp1.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
