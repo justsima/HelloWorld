@@ -1,0 +1,11 @@
+C:\Users\lenovo\Documents\GitHub\C#\Lab Ex\HelloWorld\labGui\bin\Debug\labGui.exe.config
+C:\Users\lenovo\Documents\GitHub\C#\Lab Ex\HelloWorld\labGui\bin\Debug\labGui.exe
+C:\Users\lenovo\Documents\GitHub\C#\Lab Ex\HelloWorld\labGui\bin\Debug\labGui.pdb
+C:\Users\lenovo\Documents\GitHub\C#\Lab Ex\HelloWorld\labGui\obj\Debug\labGui.csproj.AssemblyReference.cache
+C:\Users\lenovo\Documents\GitHub\C#\Lab Ex\HelloWorld\labGui\obj\Debug\labGui.csproj.SuggestedBindingRedirects.cache
+C:\Users\lenovo\Documents\GitHub\C#\Lab Ex\HelloWorld\labGui\obj\Debug\labGui.Form1.resources
+C:\Users\lenovo\Documents\GitHub\C#\Lab Ex\HelloWorld\labGui\obj\Debug\labGui.Properties.Resources.resources
+C:\Users\lenovo\Documents\GitHub\C#\Lab Ex\HelloWorld\labGui\obj\Debug\labGui.csproj.GenerateResource.cache
+C:\Users\lenovo\Documents\GitHub\C#\Lab Ex\HelloWorld\labGui\obj\Debug\labGui.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Documents\GitHub\C#\Lab Ex\HelloWorld\labGui\obj\Debug\labGui.exe
+C:\Users\lenovo\Documents\GitHub\C#\Lab Ex\HelloWorld\labGui\obj\Debug\labGui.pdb
