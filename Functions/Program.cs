@@ -37,15 +37,19 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-            Circle cr = new Circle();
-            Console.WriteLine("Enter radius: ");
-            int rad = Console.Read();
-            Console.WriteLine("Area of Circle: ");
-            Console.WriteLine("Enter length: ");
-            Console.WriteLine("Enter height: ");
-            Console.WriteLine("Area of rectangle");
-            Console.WriteLine("Perimeter  of rectangle");
-          
+            Circle c = new Circle();
+            Rectangle r = new Rectangle();
+            Console.WriteLine("Enter the radius ");
+            c.radius = double.Parse(Console.ReadLine());
+            Console.WriteLine("Area of the circle is " + c.calcArea());
+            Console.WriteLine("Circumfrence of the circle is " + c.calcPermiter());
+            Console.WriteLine("Enter the Length ");
+            r.length = double.Parse(Console.ReadLine());
+            Console.WriteLine("Enter the height ");
+            r.height = double.Parse(Console.ReadLine());
+            Console.WriteLine("Area of the Rectangle is " + r.calcArea());
+            Console.WriteLine("Perimeter of the Rectangle is " + r.calcPermiter());
         }
     }
 }
+    
