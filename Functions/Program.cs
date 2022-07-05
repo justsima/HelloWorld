@@ -41,7 +41,10 @@ namespace ConsoleApp2
             Console.WriteLine("Enter radius: ");
             int rad = Console.Read();
             Console.WriteLine("Area of Circle: ");
-
+            Console.WriteLine("Enter length: ");
+            Console.WriteLine("Enter height: ");
+            Console.WriteLine("Area of rectangle");
+            Console.WriteLine("Perimeter  of rectangle");
         }
     }
 }
