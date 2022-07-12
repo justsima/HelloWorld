@@ -34,7 +34,7 @@ namespace labGui
             }
             else
             {
-                MessageBox.Show("Not coreect");
+                 MessageBox.Show("Not coreect");
             }
             if (txt_name.Text.Length < 3)
             {
