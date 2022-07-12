@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace labGui
 {
-    internal class Products
+    class Products
     {
+		static private List<Products> products = new List<Products>();
 		public int number { get; set; }
 		public DateTime date { get; set; }
 		public int inventory { get; set; }
@@ -17,6 +18,13 @@ namespace labGui
 		public void save()
 		{
 			Console.WriteLine("Query saved ");
+			products.Add(this);
 		}
+		public static List <Products> GetAllProducts()
+        {
+			return products;
+        }
+		
+
 	}
 }

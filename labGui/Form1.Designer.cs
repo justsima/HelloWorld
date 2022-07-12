@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.button1 = new System.Windows.Forms.Button();
             this.number = new System.Windows.Forms.Label();
             this.date = new System.Windows.Forms.Label();
@@ -42,6 +43,10 @@
             this.txt_price = new System.Windows.Forms.TextBox();
             this.txt_date = new System.Windows.Forms.DateTimePicker();
             this.button2 = new System.Windows.Forms.Button();
+            this.dt1 = new System.Windows.Forms.DataGridView();
+            this.ep1 = new System.Windows.Forms.ErrorProvider(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.dt1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ep1)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
@@ -123,6 +128,7 @@
             this.txt_number.Name = "txt_number";
             this.txt_number.Size = new System.Drawing.Size(165, 33);
             this.txt_number.TabIndex = 9;
+            this.txt_number.TextChanged += new System.EventHandler(this.txt_number_TextChanged);
             // 
             // txt_inventory
             // 
@@ -176,11 +182,27 @@
             this.button2.Text = "Cancel";
             this.button2.UseVisualStyleBackColor = true;
             // 
+            // dt1
+            // 
+            this.dt1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dt1.Location = new System.Drawing.Point(663, 237);
+            this.dt1.Name = "dt1";
+            this.dt1.RowHeadersWidth = 62;
+            this.dt1.RowTemplate.Height = 28;
+            this.dt1.Size = new System.Drawing.Size(322, 203);
+            this.dt1.TabIndex = 17;
+            this.dt1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            // 
+            // ep1
+            // 
+            this.ep1.ContainerControl = this;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1006, 472);
+            this.Controls.Add(this.dt1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.txt_date);
             this.Controls.Add(this.txt_price);
@@ -197,7 +219,10 @@
             this.Controls.Add(this.button1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.Click += new System.EventHandler(this.Form1_Click);
+            ((System.ComponentModel.ISupportInitialize)(this.dt1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ep1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -218,6 +243,8 @@
         private System.Windows.Forms.TextBox txt_price;
         private System.Windows.Forms.DateTimePicker txt_date;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.DataGridView dt1;
+        private System.Windows.Forms.ErrorProvider ep1;
     }
 }
 
