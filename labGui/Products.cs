@@ -15,7 +15,9 @@ namespace labGui
 		public string name { get; set; }
 		public int count { get; set; }
 		public int price { get; set; }
-		public void save()
+        public bool isavailable  { get; set; }
+        public bool radiobtn { get; set; }
+        public void save()
 		{
 			Console.WriteLine("Query saved ");
 			products.Add(this);
