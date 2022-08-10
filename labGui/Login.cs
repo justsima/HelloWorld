@@ -16,7 +16,6 @@ namespace labGui
         {
             InitializeComponent();
             password.PasswordChar = '*';
-
             //this will hash the inputs from user to asteriks 
         }
 
@@ -27,10 +26,14 @@ namespace labGui
             //validation will happen here 
             if(user == "admin" && psd =="admin")
             {
-                string username = user;
-                Form form1 = new Form1(username);
-                form1.Show();
+
+                MainWindow window = new MainWindow();
+                window.Show();
                 this.Hide();
+                /*string username = user;
+                Form form1 = new Form1();
+                form1.Show();
+                this.Hide();*/
                 //hide the login form
                 //the program isn't exited when it is closed. So we have to manually stop it.
 
@@ -43,6 +46,11 @@ namespace labGui
         }
 
         private void password_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void username_TextChanged(object sender, EventArgs e)
         {
 
         }

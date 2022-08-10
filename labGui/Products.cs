@@ -10,23 +10,34 @@ namespace labGui
     {
 		static private List<Products> products = new List<Products>();
 		public int number { get; set; }
-		public DateTime date { get; set; }
+		public String date { get; set; }
 		public int inventory { get; set; }
 		public string name { get; set; }
 		public int count { get; set; }
 		public int price { get; set; }
         public bool isavailable  { get; set; }
         public bool radiobtn { get; set; }
+        public string search { get; set; }
         public void save()
 		{
-			Console.WriteLine("Query saved ");
+			Console.WriteLine("Query saved!");
 			products.Add(this);
 		}
 		public static List <Products> GetAllProducts()
         {
 			return products;
         }
-		
-
+		public static Products findone (string name)
+		{
+			return products.Find(p => p.name == name);
+		}
+		public void Save()
+        {
+			products.Add(this);
+        }
+		/*public static List<Products> GetProducts(string name)
+		{
+			return products;
+		}*/
 	}
 }

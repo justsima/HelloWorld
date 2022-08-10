@@ -97,7 +97,6 @@ namespace labGui
             this.txt_name.Name = "txt_name";
             this.txt_name.Size = new System.Drawing.Size(809, 36);
             this.txt_name.TabIndex = 12;
-            this.txt_name.TextChanged += new System.EventHandler(this.txt_name_TextChanged);
             // 
             // txt_date
             // 
@@ -114,6 +113,7 @@ namespace labGui
             this.button2.TabIndex = 16;
             this.button2.Text = "Cancel";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // errorPro1
             // 
@@ -128,7 +128,6 @@ namespace labGui
             this.label3.Size = new System.Drawing.Size(120, 31);
             this.label3.TabIndex = 24;
             this.label3.Text = "Number";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label4
             // 
@@ -139,7 +138,6 @@ namespace labGui
             this.label4.Size = new System.Drawing.Size(73, 31);
             this.label4.TabIndex = 25;
             this.label4.Text = "Date";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label5
             // 
@@ -200,7 +198,6 @@ namespace labGui
             this.chkList.Name = "chkList";
             this.chkList.Size = new System.Drawing.Size(542, 96);
             this.chkList.TabIndex = 19;
-            this.chkList.SelectedIndexChanged += new System.EventHandler(this.checkedListBox1_SelectedIndexChanged);
             // 
             // checkbox1
             // 
@@ -212,7 +209,6 @@ namespace labGui
             this.checkbox1.TabIndex = 18;
             this.checkbox1.Text = "In Store";
             this.checkbox1.UseVisualStyleBackColor = true;
-            this.checkbox1.CheckedChanged += new System.EventHandler(this.checkbox1_CheckedChanged);
             // 
             // dt1
             // 
@@ -234,7 +230,6 @@ namespace labGui
             this.groupBox1.Size = new System.Drawing.Size(322, 133);
             this.groupBox1.TabIndex = 23;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // rdbtn2
             // 
@@ -247,7 +242,6 @@ namespace labGui
             this.rdbtn2.TabStop = true;
             this.rdbtn2.Text = "Used";
             this.rdbtn2.UseVisualStyleBackColor = true;
-            this.rdbtn2.CheckedChanged += new System.EventHandler(this.rdbtn2_CheckedChanged);
             // 
             // rdbtn1
             // 
@@ -260,7 +254,6 @@ namespace labGui
             this.rdbtn1.TabStop = true;
             this.rdbtn1.Text = "New ";
             this.rdbtn1.UseVisualStyleBackColor = true;
-            this.rdbtn1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
             // 
             // label2
             // 
@@ -291,7 +284,6 @@ namespace labGui
             this.DisplayName.Size = new System.Drawing.Size(103, 31);
             this.DisplayName.TabIndex = 33;
             this.DisplayName.Text = "Welcome";
-            this.DisplayName.Click += new System.EventHandler(this.DisplayName_Click);
             // 
             // txt_inventory
             // 
@@ -306,6 +298,7 @@ namespace labGui
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(1156, 962);
             this.Controls.Add(this.txt_inventory);
             this.Controls.Add(this.DisplayName);
@@ -327,10 +320,10 @@ namespace labGui
             this.Controls.Add(this.txt_number);
             this.Controls.Add(this.inventory);
             this.Controls.Add(this.button1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
-            this.Click += new System.EventHandler(this.Form1_Click);
             ((System.ComponentModel.ISupportInitialize)(this.errorPro1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dt1)).EndInit();
             this.groupBox1.ResumeLayout(false);
