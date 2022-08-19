@@ -27,10 +27,10 @@ namespace labGui
             }
             else
             {
-                //  label3.Text =products.name
-                //  dataGridView1.DataSource = Products.GetAllProducts();
+                //label3.Text =products.name
+                //dataGridView1.DataSource = Products.GetAllProducts();
                 MessageBox.Show($"Product found! \n Name: {products.name}\n" +
-                    $"Detailed information on the Update Menu!");
+                $"Detailed information on the Update Menu!");
 
             }            
         }

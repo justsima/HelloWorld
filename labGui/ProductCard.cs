@@ -65,10 +65,7 @@ namespace labGui
             InitializeComponent();
         }
 
-        private void ProductCard_Load(object sender, EventArgs e)
-        {
-
-        }
+        
 
         private void label1_Click(object sender, EventArgs e)
         {

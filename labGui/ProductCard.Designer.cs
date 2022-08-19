@@ -231,8 +231,7 @@
             this.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "ProductCard";
-            this.Size = new System.Drawing.Size(916, 511);
-            this.Load += new System.EventHandler(this.ProductCard_Load);
+            this.Size = new System.Drawing.Size(909, 511);
             this.ResumeLayout(false);
             this.PerformLayout();
 
