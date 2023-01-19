@@ -13,6 +13,8 @@ C:\Users\lenovo\Documents\GitHub\C#\Lab Ex\HelloWorld\labGui\obj\Debug\labGui.Lo
 C:\Users\lenovo\Documents\GitHub\C#\Lab Ex\HelloWorld\labGui\obj\Debug\labGui.MainWindow.resources
 C:\Users\lenovo\Documents\GitHub\C#\Lab Ex\HelloWorld\labGui\obj\Debug\labGui.Search.resources
 C:\Users\lenovo\Documents\GitHub\C#\Lab Ex\HelloWorld\labGui\obj\Debug\labGui.ProductCard.resources
-C:\Users\lenovo\Documents\GitHub\C#\Lab Ex\HelloWorld\labGui\obj\Debug\labGui.Update.resources
 C:\Users\lenovo\Documents\GitHub\C#\Lab Ex\HelloWorld\labGui\bin\Debug\Guna.UI2.dll
 C:\Users\lenovo\Documents\GitHub\C#\Lab Ex\HelloWorld\labGui\obj\Debug\labGui.csproj.CopyComplete
+C:\Users\lenovo\Documents\GitHub\C#\Lab Ex\HelloWorld\labGui\obj\Debug\labGui.DetailsPage.resources
+C:\Users\lenovo\Documents\GitHub\C#\Lab Ex\HelloWorld\labGui\obj\Debug\labGui.dbService.resources
+C:\Users\lenovo\Documents\GitHub\C#\Lab Ex\HelloWorld\labGui\obj\Debug\labGui.Dsiplay.resources

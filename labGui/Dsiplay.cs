@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace labGui
 {
-    public partial class Update : Form
+    public partial class Dsiplay : Form
     {
-        public Update()
+        public Dsiplay()
         {
             InitializeComponent();
         }
@@ -50,6 +50,11 @@ namespace labGui
                 pc.MyObjName = item.name;
                 pc.MyCount = item.count;
                 pc.MyPrice = item.price;
+                pc.Click += (Object o, EventArgs e2) =>
+                {
+                    DetailsPage d = new DetailsPage(item.number, item.date, item.inventory, item.name, item.count, item.price);
+                    d.Show();
+                };
                 pnlContainer.Controls.Add(pc);
             }
         }

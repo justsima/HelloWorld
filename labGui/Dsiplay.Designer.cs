@@ -1,6 +1,6 @@
 ﻿namespace labGui
 {
-    partial class Update
+    partial class Dsiplay
     {
         /// <summary>
         /// Required designer variable.

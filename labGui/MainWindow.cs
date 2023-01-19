@@ -68,9 +68,14 @@ namespace labGui
             {
                 ActiveMdiChild.Close();
             }
-            Update up = new Update();
+            Dsiplay up = new Dsiplay();
             up.MdiParent = this;
             up.Show();
+        }
+
+        private void updateProductToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
